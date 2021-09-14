@@ -1,0 +1,91 @@
+h1 {
+    color: rgb(0, 0, 255);
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px;
+    margin-left: 700px;
+    /* margin is a space around the object and padding is a space within the box around the object*/
+}
+
+/*.header *{
+    border:solid;
+}*/
+
+.menu a{
+    margin-top: 150px;
+    
+}
+
+.menu{
+  padding-top: 150px;
+}
+
+/* * {
+    border:solid;
+} */
+
+.header {
+    background-color: rgb(134, 221, 248);
+    display:flex;
+    justify-content: space-between;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.footer {
+    display:flex;
+    justify-content: flex-end;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family:monospace;
+    color: rgb(247, 154, 255);
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    color:brown;
+}
+
+body {
+    background-color: rgb(153, 132, 245);
+}
+
+a:link{
+    color:blue;
+}
+
+a:visited{
+    color:rgb(134, 9, 251);
+}
+
+.item{
+    position:relative;
+    margin-top: 60px;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.10;
+}
+
